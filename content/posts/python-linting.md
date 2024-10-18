@@ -101,8 +101,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> help(math)
 ```
 
-![math module help](https://i.stack.imgur.com/thhYX.png)
-
 ### Docstring styles
 
 PEP257 specifies the docstring targets (modules, packages, classes, functions), what to expect from them, but not a specific format. At this point you can figure there are different docstring conventions :S.
