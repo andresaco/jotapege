@@ -115,7 +115,7 @@ As an example, the following code blocks shows docstrings in the formats mention
 
 #### Sphinx format
 
-```python
+{{< highlight python >}}
 def function_with_types_in_docstring(param1, param2):
     """
     Example function with types documented in the docstring.
@@ -132,11 +132,11 @@ def function_with_types_in_docstring(param1, param2):
     .. _PEP 484:
         https://www.python.org/dev/peps/pep-0484/
     """
-```
+{{< /highlight >}}
 
 #### Google format
 
-```python
+{{< code title="Google Format" language="python" >}}
 def function_with_types_in_docstring(param1, param2):
     """Example function with types documented in the docstring.
 
@@ -155,11 +155,11 @@ def function_with_types_in_docstring(param1, param2):
         https://www.python.org/dev/peps/pep-0484/
 
     """
-```
+{{< /code >}}
 
 #### Numpy Format
 
-```python
+{{< code title="Numpy Format" language="python" >}}
 def function_with_types_in_docstring(param1, param2):
     """Example function with types documented in the docstring.
 
@@ -183,7 +183,7 @@ def function_with_types_in_docstring(param1, param2):
         https://www.python.org/dev/peps/pep-0484/
 
     """
-```
+{{< /code >}}
 
 ## Extended lint process. A practical approach
 
